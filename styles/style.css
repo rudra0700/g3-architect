@@ -16,6 +16,9 @@ html {
   font-weight: 600;
   /* border-radius: 8px; */
 }
+section {
+  margin-top: 8rem;
+}
 
 /* nav section style */
 
@@ -86,6 +89,10 @@ main {
   grid-template-columns: repeat(2, 1fr);
   gap: 1rem;
 }
+.team-img-container img {
+  width: 30rem;
+}
+
 .team-content {
   /* border: 2px solid black; */
   padding: 0 20px;
@@ -120,16 +127,25 @@ main {
   header {
     padding: 10px;
   }
-  nav {
+  nav,
+  .team-container {
     flex-direction: column;
+  }
+
+  .team-img-container img {
+    width: 100%;
   }
 }
 /* responsive for medium device */
-@media screen and (min-width: 576px) and (max-width: 960px) {
+@media screen and (min-width: 576px) and (max-width: 920px) {
   header {
     padding: 20px;
   }
-  nav {
+  nav,
+  .team-container {
     flex-direction: column;
+  }
+  .team-content {
+    padding: 0 12rem;
   }
 }
