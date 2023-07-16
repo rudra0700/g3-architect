@@ -70,6 +70,51 @@ nav li a {
   margin-top: 10px;
 }
 
+/* main section style */
+
+main {
+  max-width: 110rem;
+  /* border: 2px solid black; */
+  margin: 0 auto;
+}
+.team-container {
+  display: flex;
+  align-items: center;
+}
+.team-img-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+}
+.team-content {
+  /* border: 2px solid black; */
+  padding: 0 20px;
+}
+.team-title {
+  color: #727272;
+  font-size: 4rem;
+  font-weight: 500;
+}
+.quick-list {
+  color: #727272;
+  font-size: 4rem;
+  font-weight: 500;
+}
+.of-our {
+  color: #131313;
+  font-size: 45px;
+  font-weight: 700;
+}
+.features {
+  color: #ff900e;
+  font-size: 45px;
+  font-weight: 700;
+}
+.team-description {
+  color: #727272;
+  font-size: 1.4rem;
+  font-weight: 400;
+}
 /* responsive for small device */
 @media screen and (max-width: 576px) {
   header {
