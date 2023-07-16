@@ -1,0 +1,65 @@
+/* work sand google fond from google */
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700&display=swap");
+* {
+  font-family: "Work Sans", sans-serif;
+}
+html {
+  font-size: 10px;
+}
+.primary-btn {
+  background-color: orange;
+  color: #fff;
+  border: 0;
+  padding: 10px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+/* nav section style */
+
+header {
+  background: rgba(255, 144, 14, 0.1);
+  padding: 10px 240px;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-title {
+  color: #131313;
+  font-size: 4.5rem;
+  font-weight: 700;
+}
+nav > ul {
+  display: flex;
+}
+nav li {
+  list-style: none;
+  margin-right: 30px;
+}
+nav li a {
+  text-decoration: none;
+  color: #424242;
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+
+/* banner section style */
+.banner-content {
+  border: 2px solid black;
+  max-width: 600px;
+  text-align: center;
+  margin: 0px auto;
+}
+.banner-title {
+  color: #131313;
+  font-size: 6rem;
+  font-weight: 700;
+}
+.banner-description {
+  color: #727272;
+  font-size: 1.6rem;
+  font-weight: 400;
+}
