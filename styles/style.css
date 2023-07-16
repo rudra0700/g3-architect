@@ -14,7 +14,6 @@ html {
   text-align: center;
   font-size: 1.8rem;
   font-weight: 600;
-  /* border-radius: 8px; */
 }
 section {
   margin-top: 8rem;
@@ -25,7 +24,6 @@ section {
 header {
   background: rgba(255, 144, 14, 0.1);
   padding: 10px 240px;
-  /* border: 2px solid red; */
 }
 nav {
   display: flex;
@@ -52,8 +50,8 @@ nav li a {
 }
 
 /* banner section style */
+
 .banner-content {
-  /* border: 2px solid black; */
   max-width: 60rem;
   text-align: center;
   margin: 0px auto;
@@ -80,6 +78,8 @@ main {
   /* border: 2px solid black; */
   margin: 0 auto;
 }
+
+/* team sections style */
 .team-container {
   display: flex;
   align-items: center;
@@ -94,7 +94,6 @@ main {
 }
 
 .team-content {
-  /* border: 2px solid black; */
   padding: 0 20px;
 }
 .team-title {
@@ -122,6 +121,31 @@ main {
   font-size: 1.4rem;
   font-weight: 400;
 }
+
+/* Facts section style */
+
+.facts-card-container {
+  display: flex;
+  /* border: 2px solid black; */
+  justify-content: space-around;
+}
+.card {
+  border: 1px solid orange;
+  border-radius: 5px;
+  text-align: center;
+  padding: 30px;
+}
+.card-states {
+  color: #424242;
+  font-size: 4rem;
+  font-weight: 600;
+}
+.card-title {
+  color: #727272;
+  font-size: 2rem;
+  font-weight: 600;
+  margin-top: 5px;
+}
 /* responsive for small device */
 @media screen and (max-width: 576px) {
   header {
@@ -131,10 +155,12 @@ main {
   .team-container {
     flex-direction: column;
   }
-
-  .team-img-container img {
-    width: 100%;
+  .team-img-container {
+    grid-template-columns: 1fr;
   }
+  /* .team-img-container img {
+    width: 100%;
+  } */
 }
 /* responsive for medium device */
 @media screen and (min-width: 576px) and (max-width: 920px) {
